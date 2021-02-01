@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
+import Box from "./Box";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <div>
         <button onClick={() => setCount(count + 1)}>点击 +1</button>
       </div>
+      <Box />
     </div>
   );
 }

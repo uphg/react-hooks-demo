@@ -1,3 +1,4 @@
+// 使用 useReducer 案例
 import React, { useReducer } from 'react';
 
 const myReducer = (state, action) => {
@@ -13,7 +14,7 @@ const myReducer = (state, action) => {
 }
 
 function App() {
-  const [state, dispatch] = useReducer(myReducer, { count:   0 });
+  const [state, dispatch] = useReducer(myReducer, { count: 0 });
   return (
     <div className="count-demo">
       <p>Count: {state.count}</p>

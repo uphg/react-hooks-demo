@@ -1,7 +1,7 @@
+import React from 'react' 
 import Navbar from './Navber.js'
 import Messages from './Message.js'
-
-const AppContext = React.createContext({});
+import AppContext from './hooks/context.js'
 
 function ContextDemo() {
   return (
